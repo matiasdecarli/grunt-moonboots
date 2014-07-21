@@ -1,6 +1,6 @@
 # grunt-moonboots
 
-> A grunt task to [description]
+> A grunt task that use moontoobs-static to generate _build folder, using the same configuration file than the actual project
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
