@@ -10,7 +10,7 @@
 
 module.exports = function(grunt) {
   
-  var target = require(__dirname + '/config')({directory: __dirname + '/_build'});
+  var target = require(__dirname + '/sample/config')({directory: __dirname + '/_build'});
 
   // Project configuration.
   grunt.initConfig({ 

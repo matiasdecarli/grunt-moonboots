@@ -1,7 +1,7 @@
 {
   "name": "grunt-moonboots",
   "description": "A grunt task that use moontoobs-static to generate _build folder, using the same configuration file than the actual project",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/matiasdecarli/grunt-moonboots",
   "author": {
     "name": "matiasdecarli",
