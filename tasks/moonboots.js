@@ -11,7 +11,7 @@ var MoonbootsStatic = require('moonboots-static');
 
 
 module.exports = function(grunt) {
-  grunt.registerMultiTask('moonboots', 'A grunt task to [description]', function() {  
+  grunt.registerMultiTask('moonboots', 'A grunt task that use moontoobs-static to generate _build folder, using the same configuration file than the actual project', function() {  
       var done = this.async();   
       
       var moonboots = new MoonbootsStatic(
