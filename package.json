@@ -1,7 +1,7 @@
 {
   "name": "grunt-moonboots",
   "description": "A grunt task that use moontoobs-static to generate _build folder, using the same configuration file than the actual project",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "homepage": "https://github.com/matiasdecarli/grunt-moonboots",
   "author": {
     "name": "matiasdecarli",
@@ -23,11 +23,16 @@
   "engines": {
     "node": "*"
   },
-  "devDependencies": {
-    "grunt": "~0.4.0",    
+  "dependencies": {    
     "underscore": "^1.6.0",
     "moonboots": "^2.0.6",
     "moonboots-static": "0.0.5"
+  },
+  "peerDependencies":{
+    "grunt": ">=0.4.1" 
+  },
+  "devDependencies":{
+    "grunt": ">=0.4.1" 
   },
   "keywords": [
     "gruntplugin"
